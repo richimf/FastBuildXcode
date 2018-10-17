@@ -31,6 +31,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 //    menu.addItem(NSMenuItem.separator())
 //    menu.addItem(NSMenuItem(title: "Quit Quotes", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
 //    statusItem.menu = menu
+  // next to implement: www.raywenderlich.com/666-filemanager-class-tutorial-for-macos-getting-started-with-the-file-system
 //  }
 
   @objc func togglePopover(_ sender: Any?) {
