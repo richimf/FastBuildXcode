@@ -43,3 +43,8 @@ We can simply build our app to run inside simulators by using simple command:
 We can build for testing using command:
 
 > $ xcodebuild build-for-testing -workspace <NAME>.xcworkspace -scheme <NAME> -destination generic/platform=iOS
+  
+ #### Clear Derived Data
+ 
+ > rm -rf ~/Library/Developer/Xcode/DerivedData
+
